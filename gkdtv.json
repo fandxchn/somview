@@ -4,7 +4,7 @@
       "key": "atxv",
       "name": "atxv",
       "type": 0,
-      "api": "https://ide/vod/at/xml/",
+      "api": "https://cj.lziapi.com/api.php/provide/vod/at/xml/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -17,7 +17,7 @@
         {
           "name": "fandx",
           "urls": [
-            "https://cj.com/api.php/provide/vod/at/xml/"
+            "https://cj.lziapi.com/api.php/provide/vod/at/xml/"
           ]
         }
       ]
