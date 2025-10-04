@@ -8,6 +8,15 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
+    },
+    {
+      "key": "atxv2",
+      "name": "atxv2",
+      "type": 1,
+      "api": "https://9280.kstore.space/wex.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     }
   ],
   "lives": [
