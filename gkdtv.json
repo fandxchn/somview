@@ -10,19 +10,10 @@
       "filterable": 1
     },
     {
-      "key": "atxv2",
-      "name": "atxv2",
+      "key": "mdzy",
+      "name": "mdzy",
       "type": 1,
-      "api": "https://9280.kstore.space/wex.json",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "qiaoji8",
-      "name": "qiaoji8",
-      "type": 1,
-      "api": "http://cdn.qiaoji8.com/tvbox.json",
+      "api": "https://www.mdzyapi.com/api.php/provide/vod/at/xml/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -35,7 +26,7 @@
         {
           "name": "fandx",
           "urls": [
-            "https://cj.lziapi.com/api.php/provide/vod/at/xml/","https://9280.kstore.space/wex.json","http://cdn.qiaoji8.com/tvbox.json"
+            "https://cj.lziapi.com/api.php/provide/vod/at/xml/"
           ]
         }
       ]
