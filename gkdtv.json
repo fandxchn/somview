@@ -1,266 +1,203 @@
 {
-  "sites": [
-    {
-      "key": "atxv",
-      "name": "atxv",
-      "type": 0,
-      "api": "https://cj.lziapi.com/api.php/provide/vod/at/xml/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    }
-  ],
-  "lives": [
-    {
-      "group": "fandx",
-      "channels": [
+    "recommend": [
         {
-          "name": "fandx",
-          "urls": [
-            "https://cj.lziapi.com/api.php/provide/vod/at/xml/"
-          ]
+            "name": "豆瓣推荐 影视推荐",
+            "codeID": "N7WRmLmOdB8FSh4M",
+            "url": "https://dh.fookxue.cn/UZ2/recommend/js/douban.txt",
+            "version": "3",
+            "type": 200
         }
-      ]
-    }
-  ],
-  "parses": [
-    {
-      "name": "解析1",
-      "type": 0,
-      "url": "https://xxx.xxx?jx="
-    }
-  ],
-  "flags": [
-    "youku",
-    "qq",
-    "iqiyi",
-    "qiyi",
-    "letv",
-    "sohu",
-    "tudou",
-    "pptv",
-    "mgtv",
-    "wasu"
-  ],
-  "ijk": [
-    {
-      "group": "软解码",
-      "options": [
+    ],
+    "panTools": [
         {
-          "category": 4,
-          "name": "opensles",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "overlay-format",
-          "value": "842225234"
-        },
-        {
-          "category": 4,
-          "name": "framedrop",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "soundtouch",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "start-on-prepared",
-          "value": "1"
-        },
-        {
-          "category": 1,
-          "name": "http-detect-range-support",
-          "value": "0"
-        },
-        {
-          "category": 1,
-          "name": "fflags",
-          "value": "fastseek"
-        },
-        {
-          "category": 2,
-          "name": "skip_loop_filter",
-          "value": "48"
-        },
-        {
-          "category": 4,
-          "name": "reconnect",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "max-buffer-size",
-          "value": "5242880"
-        },
-        {
-          "category": 4,
-          "name": "enable-accurate-seek",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-auto-rotate",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-handle-resolution-change",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-hevc",
-          "value": "0"
+            "name": "UC|夸克|阿里 网盘解析工具",
+            "url": "https://dh.fookxue.cn/UZ2/panTools/js/panTools.js",
+            "env": "UCCookie##用于播放UC网盘视频&&夸克Cookie##用于播放Quark网盘视频&&阿里Token##用于播放阿里网盘视频&&转存文件夹名称##在各网盘转存文件时使用的文件夹名称",
+            "version": 13,
+            "type": 300
         }
-      ]
-    },
-    {
-      "group": "硬解码",
-      "options": [
+    ],
+    "danMu": [
         {
-          "category": 4,
-          "name": "opensles",
-          "value": "0"
+            "name": "综合弹幕",
+            "url": "https://dh.fookxue.cn/UZ2/danMu/js/danMu2.txt",
+            "codeID": "RkgRA9srEAgMgLcBJ78G2wlPRKTWWiwE",
+            "remark": "别那么执着，搜不到就算了",
+            "type": 400,
+            "version": 9
         },
         {
-          "category": 4,
-          "name": "overlay-format",
-          "value": "842225234"
-        },
-        {
-          "category": 4,
-          "name": "framedrop",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "soundtouch",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "start-on-prepared",
-          "value": "1"
-        },
-        {
-          "category": 1,
-          "name": "http-detect-range-support",
-          "value": "0"
-        },
-        {
-          "category": 1,
-          "name": "fflags",
-          "value": "fastseek"
-        },
-        {
-          "category": 2,
-          "name": "skip_loop_filter",
-          "value": "48"
-        },
-        {
-          "category": 4,
-          "name": "reconnect",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "max-buffer-size",
-          "value": "5242880"
-        },
-        {
-          "category": 4,
-          "name": "enable-accurate-seek",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-auto-rotate",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-handle-resolution-change",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-hevc",
-          "value": "1"
+            "name": "dandanPlay 弹幕",
+            "remark": "数据来自 弹弹Play",
+            "url": "https://dh.fookxue.cn/UZ2/danMu/js/danMu.js",
+            "type": 400,
+            "version": 1
         }
-      ]
-    }
-  ],
-  "ads": [
-    "mimg.0c1q0l.cn",
-    "www.googletagmanager.com",
-    "www.google-analytics.com",
-    "mc.usihnbcq.cn",
-    "mg.g1mm3d.cn",
-    "mscs.svaeuzh.cn",
-    "cnzz.hhttm.top",
-    "tp.vinuxhome.com",
-    "cnzz.mmstat.com",
-    "www.baihuillq.com",
-    "s23.cnzz.com",
-    "z3.cnzz.com",
-    "c.cnzz.com",
-    "stj.v1vo.top",
-    "z12.cnzz.com",
-    "img.mosflower.cn",
-    "tips.gamevvip.com",
-    "ehwe.yhdtns.com",
-    "xdn.cqqc3.com",
-    "www.jixunkyy.cn",
-    "sp.chemacid.cn",
-    "hm.baidu.com",
-    "s9.cnzz.com",
-    "z6.cnzz.com",
-    "um.cavuc.com",
-    "mav.mavuz.com",
-    "wofwk.aoidf3.com",
-    "z5.cnzz.com",
-    "xc.hubeijieshikj.cn",
-    "tj.tianwenhu.com",
-    "xg.gars57.cn",
-    "k.jinxiuzhilv.com",
-    "cdn.bootcss.com",
-    "ppl.xunzhuo123.com",
-    "xomk.jiangjunmh.top",
-    "img.xunzhuo123.com",
-    "z1.cnzz.com",
-    "s13.cnzz.com",
-    "xg.huataisangao.cn",
-    "z7.cnzz.com",
-    "xg.huataisangao.cn",
-    "z2.cnzz.com",
-    "s96.cnzz.com",
-    "q11.cnzz.com",
-    "thy.dacedsfa.cn",
-    "xg.whsbpw.cn",
-    "s19.cnzz.com",
-    "z8.cnzz.com",
-    "s4.cnzz.com",
-    "f5w.as12df.top",
-    "ae01.alicdn.com",
-    "www.92424.cn",
-    "k.wudejia.com",
-    "vivovip.mmszxc.top",
-    "qiu.xixiqiu.com",
-    "cdnjs.hnfenxun.com",
-    "cms.qdwght.com"
-  ]
+    ],
+    "live": [
+        {
+            "name": "",
+            "url": "",
+            "type": 10,
+            "remark": ""
+        }
+    ],
+    "vod": [
+      
+         {
+            "name": "瓜子app",
+            "api": "https://dh.fookxue.cn/UZ2/vod/js/gzapp.js",
+            "codeID": "ra5Z3wtXKshzSMK2",
+            "instance": "gzapp20241001",
+            "webSite": "https://api.9cec79d.com",
+            "remark": "",
+            "version": "2",
+            "type": 100
+        },
+    
+  
+        {
+            "name": "玩偶哥哥",
+            "api": "https://dh.fookxue.cn/UZ2/vod/js/wogg.js",
+            "webSite": "https://www.wogg.lol",
+            "remark": "网盘 1.6.41 及以上版本可用",
+            "version": "3",
+            "type": 101
+        },
+       {
+            "api": "https://cj.rycjapi.com/api.php/provide/vod",
+            "name": "🐝如意",
+            "type": 0
+        },
+      
+      
+    
+       
+      
+   
+ 
+
+       
+        {
+            "name": "瓜子web",
+            "api": "https://dh.fookxue.cn/UZ2/vod/js/gzys.js",
+            "instance": "gzys20240822",
+            "webSite": "https://api.zaqohu.com",
+            "remark": "不支持搜索",
+            "version": "2",
+            "type": 100
+        },
+       
+        
+    
+       
+        {
+            "name": "🐲欧歌资源",
+            "api": "https://dh.fookxue.cn/UZ2/vod/js/ougepan.js",
+            "instance": "ougepan20241030",
+            "webSite": "https://woog.nxog.eu.org/",
+            "remark": "欧歌网盘",
+            "version": "2",
+            "type": 100
+        },
+     
+    
+        {
+            "name": "云盘资源网",
+            "codeID": "",
+            "api": "https://dh.fookxue.cn/UZ2/vod/js/resyunpan.js",
+            "instance": "resYunPan20241120",
+            "webSite": "https://res.yunpan.win",
+            "remark": "",
+            "version": 1,
+            "type": 100
+        },
+        {
+            "name": "🐱玩偶备用",
+            "api": "https://dh.fookxue.cn/UZ2/vod/js/wobg.js",
+            "webSite": "http://wogg.xxooo.cf",
+            "remark": "网盘 1.6.41 及以上版本可用",
+            "version": "3",
+            "type": 101
+        },
+        {
+            "name": "🪵木偶哥哥",
+            "api": "https://dh.fookxue.cn/UZ2/vod/js/mogg.js",
+            "webSite": "http://www.mogg.top",
+            "remark": "网盘 1.6.41 及以上版本可用",
+            "version": "2",
+            "type": 101
+        },
+        {
+            "name": "🌾小米网盘",
+            "api": "https://dh.fookxue.cn/UZ2/vod/js/xiaomi.js",
+            "webSite": "http://milvdou.fun/",
+            "remark": "网盘 1.6.41 及以上版本可用",
+            "version": "3",
+            "type": 101
+        },
+        {
+            "name": "⚡️至臻网盘",
+            "api": "https://dh.fookxue.cn/UZ2/vod/js/zhizhen.js",
+            "webSite": "https://mihdr.top",
+            "remark": "网盘 1.6.41 及以上版本可用",
+            "version": "3",
+            "type": 101
+        },
+       
+        {
+            "name": "🤠多多影音",
+            "api": "https://dh.fookxue.cn/UZ2/vod/js/duoduo.js",
+            "webSite": "https://tv.yydsys.top",
+            "remark": "网盘 1.6.41 及以上版本可用",
+            "version": "3",
+            "type": 101
+        },
+        {
+            "name": "🐲欧歌资源",
+            "api": "https://dh.fookxue.cn/UZ2/vod/js/ouge.js",
+            "webSite": "https://woog.nxog.eu.org",
+            "remark": "网盘 1.6.41 及以上版本可用",
+            "version": "3",
+            "type": 101
+        },
+        {
+            "name": "⚡闪电优汐",
+            "api": "https://dh.fookxue.cn/UZ2/vod/js/shandian.js",
+            "webSite": "http://1.95.79.193/",
+            "remark": "网盘 1.6.41 及以上版本可用",
+            "version": "1",
+            "type": 101
+        },
+     
+        {
+            "name": "🍚特下饭盘",
+            "api": "https://dh.fookxue.cn/UZ2/vod/js/xiafan.js",
+            "webSite": "http://www.xn--ghqy10g1w0a.xyz/",
+            "remark": "网盘 1.6.41 及以上版本可用",
+            "version": "1",
+            "type": 101
+        },
+        {
+            "name": "🤙🏻六趣网盘",
+            "api": "https://dh.fookxue.cn/UZ2/vod/js/liuqu.js",
+            "webSite": "https://wp.0v.fit",
+            "remark": "网盘 1.6.41 及以上版本可用",
+            "version": "1",
+            "type": 101
+        },
+     
+        {
+            "name": "南风短剧",
+            "api": "https://dh.fookxue.cn/UZ2/vod/js/nanfdj.js",
+            "webSite": "https://www.nanf.cc",
+            "remark": "网盘 | 1.6.41 及以上版本可用",
+            "version": "1",
+            "type": 101
+        }
+       
+       
+        
+       
+    ]
 }
