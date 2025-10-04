@@ -19,26 +19,6 @@
       "filterable": 1
     }
   ],
-  "lives": [
-    {
-      "group": "fandx",
-      "channels": [
-        {
-          "name": "fandx",
-          "urls": [
-            "https://cj.lziapi.com/api.php/provide/vod/at/xml/"
-          ]
-        }
-      ]
-    }
-  ],
-  "parses": [
-    {
-      "name": "解析1",
-      "type": 0,
-      "url": "https://xxx.xxx?jx="
-    }
-  ],
   "flags": [
     "youku",
     "qq",
